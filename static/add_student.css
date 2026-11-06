@@ -1,0 +1,136 @@
+
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(56, 151, 206, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+
+div h2 {
+    text-align: center;
+    color: #0972f3;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #070707;
+}
+
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form input[type="date"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e7e5e5;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+
+
+form .error {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+form .success {
+    color: green;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background: #1E90FF;
+    color: white; 
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+button[type="submit"]:hover {
+    background: #104E8B; 
+    transform: scale(1.05);
+}
+
+
+.Header{
+    margin-top: 30px;
+    display:flex;
+    background: linear-gradient(to right, #2980b9, #6dcae1);
+    border-radius: 10px;
+}
+.cgpa{
+    padding-right: 150px;
+    padding-left: 50px;
+    padding-top: 14px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(90deg, #ff4949, #d6bd56);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-left: 15px;
+}
+
+p:hover {
+    background: linear-gradient(90deg, #d6bd56, #ff4949);
+    transform: translateY(-3px);
+}
+
+
+@media (max-width: 768px) {
+    form {
+        padding: 15px;
+    }
+
+    form h2 {
+        font-size: 20px;
+    }
+
+    form button {
+        font-size: 14px;
+    }
+    div {
+        padding: 15px 25px;
+    }
+
+    input[type="text"], input[type="number"] {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}

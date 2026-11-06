@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='add_student.css') }}">
+
+    <div>
+        <div class="Header">  
+            <div class="cgpa">CGPA Management</div>
+            <p><a href="{{ url_for('index') }}">Home</a></p>
+            <p> <a href="{{ url_for('add_student') }}">Add Student</a></p> 
+            <p> <a href="{{ url_for('update_student') }}">Update Student</a></p> 
+            <p> <a href="{{ url_for('delete_student') }}">Delete Student</a></p> 
+            <p>  <a href="{{ url_for('view_students') }}">View Students</a></p> 
+        </div>
+       
+        <div>
+            <h2>Add a New Student</h2>
+        </div>
+    <form method="POST">
+        <section>
+        <div>
+            <label>Name:</label>
+            <input type="text" name="name" required><br>
+        </div>
+        <div class='semester'>
+            {% for i in range(1, 9) %}
+                <h3>Semester {{ i }}</h3>
+                <div>
+                    <label>CGPA:</label>
+                    <input type="number" step="0.01" name="sem{{ i }}_cgpa" required>
+                </div>
+                <div>
+                    <label>Credit:</label>
+                    <input type="number" name="sem{{ i }}_credit" required>
+                </div>
+        {% endfor %}
+        </div>
+            <button type="submit">Add Student</button>
+    </section>
+    </form>
+
+    
+
+</div>
+</body>
+</html>

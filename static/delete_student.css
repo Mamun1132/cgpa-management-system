@@ -1,0 +1,94 @@
+
+section {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 400px;
+    margin-top: 20px;    
+}
+
+form {
+    background: linear-gradient(to right, #2980b9, #6dcae1);
+    padding: 20px 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+    font-size: 24px;   
+    margin-right: 400px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #ff4949, #d6bd56);
+    color: #0328fa;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #d6bd56, #ff4949);
+}
+
+.Header{
+    margin-top: 30px;
+    display:flex;
+    background: linear-gradient(to right, #2980b9, #6dcae1);
+    border-radius: 10px;
+}
+.cgpa{
+    padding-right: 170px;
+    padding-left: 50px;
+    padding-top: 14px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(90deg, #ff4949, #d6bd56);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-left: 15px;
+}
+
+/* Hover effect for links */
+p:hover {
+    background: linear-gradient(90deg, #d6bd56, #ff4949);
+    transform: translateY(-3px);
+}
+

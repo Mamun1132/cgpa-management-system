@@ -1,0 +1,60 @@
+.Header{
+    margin-top: 30px;
+    display:flex;
+    background: linear-gradient(to right, #2980b9, #6dcae1);
+    border-radius: 10px;
+}
+.cgpa{
+    padding-right: 170px;
+    padding-left: 50px;
+    padding-top: 14px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(90deg, #ff4949, #d6bd56);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-left: 15px;
+}
+
+/* Hover effect for links */
+p:hover {
+    background: linear-gradient(90deg, #d6bd56, #ff4949);
+    transform: translateY(-3px);
+}
+
+.welcome-message {
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 40px 60px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+    transition: transform 0.3s ease-in-out;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.welcome-message h1 {
+    font-size: 40px;
+    background: linear-gradient(45deg, #ff0066, #33ccff);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    animation: gradient-text 3s linear infinite;
+}
+
+
+
